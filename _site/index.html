@@ -1,0 +1,404 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <link rel="stylesheet" href="/assets/css/normalize.css"/>
+  <link rel="stylesheet" href="/assets/css/bulma.css"/>
+  <link rel="stylesheet" href="/assets/css/custom.css"/>
+  <link rel="stylesheet" href="/assets/css/native.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <title>
+    
+       &middot; David Tengeri's Blog
+    
+  </title>
+
+</head>
+
+
+<body>
+
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+        <h1 class="title">
+          <span>dtengeri's blog</span>
+        </h1>
+      </h4>
+    </div>
+  </div>
+</section>
+
+<div class="main-container">
+  <div class="tile is-ancestor is-vertical">
+
+
+    <nav class="nav has-shadow">
+
+      <div class="nav-left">
+
+        <a href="/" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-home" aria-hidden="true" title="Homepage"></i>
+          </span>
+        </a>
+
+        <a href="https://github.com/dtengeri" class="nav-item">
+          <span class="icon">
+            <i class="fa fa-github" aria-hidden="true" title="Github"></i>
+          </span>
+        </a>
+
+        <div class="nav-item" id="searchFieldNav">
+          <div class="field has-addons">
+            <p class="control">
+              <input class="input is-small" type="text" placeholder="Find an article" id="search-text">
+            </p>
+            <p class="control">
+              <a class="button is-dark is-small" onclick="searchHandler();">
+                Search
+              </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="nav-right nav-menu" id='nav-menu'>
+        <a href="/archive" class="nav-item">Archive</a>
+        <a href="/tags" class="nav-item">Tags</a>
+      </div>
+
+      <span class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+    </nav>
+
+    <div class="tile is-parent">
+      <div class="tile is-8 is-child main">
+
+        <div class="box">
+    <h1 class="post-title"></h1>
+    <hr/>
+    <div class="content"><span class="post-text"><ul class="posts">
+    
+    <li class="post">
+        <small>23 Oct 2017</small>
+        <small><a style="color:grey" href="/2017/10/phoenix-angular.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2017/10/phoenix-angular.html">Using Angular 4 with Phoenix Framework 1.3</a>
+        <p class="nice-text">Recently I started a new small project just to learn Elixir, Phoenix and Angular 4. Most of the resources I found online uses an older version of Phoenix and the integration of Angular looks difficult. I used the following two as inspiration, they worth checking out: https://github.com/akeating/peap https://medium.com/@zkayser/serving-a-bare-bones-angular-2-app-from-phoenix-d3f9d8ad52e5 I wanted... <a href="/2017/10/phoenix-angular.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>22 Nov 2015</small>
+        <small><a style="color:grey" href="/2015/11/overcommit-integration-of-dogma.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2015/11/overcommit-integration-of-dogma.html">Overcommit integration of Dogma</a>
+        <p class="nice-text">In my previous post, I wrote about Dogma, a source code linter for Elixir projects and how can it help to keep your code consistent. I mentioned overcommit that can execute checkers on your code before every git commit. I’ve added a Dogma pre-commit checker to be able to execute... <a href="/2015/11/overcommit-integration-of-dogma.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>08 Nov 2015</small>
+        <small><a style="color:grey" href="/2015/11/keeping-your-elixir-code-style.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2015/11/keeping-your-elixir-code-style.html">Keeping your Elixir code style consistent</a>
+        <p class="nice-text">Working with different people in a team can introduce inconsistencies into your source code. Everybody has a different coding style and your codebase can quickly become a mess. To solve this, the team can introduce a coding style guide, which describes different rules that should be applied by everybody in... <a href="/2015/11/keeping-your-elixir-code-style.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>27 Sep 2013</small>
+        <small><a style="color:grey" href="/2013/09/clean-up-old-remote-branches-in-git.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2013/09/clean-up-old-remote-branches-in-git.html">Clean up old remote branches in GIT</a>
+        <p class="nice-text">List what would be deleted:
+git remote prune origin --dry-run
+Do the clean up:
+git remote prune origin
+ <a href="/2013/09/clean-up-old-remote-branches-in-git.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>22 Aug 2013</small>
+        <small><a style="color:grey" href="/2013/08/git-pushing-to-multiple-remotes.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2013/08/git-pushing-to-multiple-remotes.html">Git: pushing to multiple remotes</a>
+        <p class="nice-text">
+  Get the actual push remote with:
+git remote -v
+  Add the new remote with:
+git remote set-url --add --push origin git://another/repo.git
+  Because of a bug in git (1.8.x) you have to add the original remote again:
+git remote set-url --add --push origin git://original/repo.git
+
+ <a href="/2013/08/git-pushing-to-multiple-remotes.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>11 Jun 2012</small>
+        <small><a style="color:grey" href="/2012/06/compile-shared-libraries-with-gcc.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/06/compile-shared-libraries-with-gcc.html">Compile shared libraries with gcc</a>
+        <p class="nice-text">Compiling libstest.so:
+gcc -Wall -fPIC -c *.c
+gcc -shared -Wl,-soname,libctest.so.1 -o libctest.so.1.0   *.o
+ln -sf /opt/lib/libctest.so.1.0 /opt/lib/libctest.so
+ln -sf /opt/lib/libctest.so.1.0 /opt/lib/libctest.so.1
+
+
+Using libctest:
+gcc -Wall -L/path/to/lib prog.c -lctest -o prog
+
+
+Running prog:
+export LD_LIBRARY_PATH=/opt/lib:$LD_LIBRARY_PATH
+./prog
+
+ <a href="/2012/06/compile-shared-libraries-with-gcc.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>29 May 2012</small>
+        <small><a style="color:grey" href="/2012/05/csv-export-in-postgresql.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/05/csv-export-in-postgresql.html">CSV export in PostgreSQL</a>
+        <p class="nice-text">Execute the following command to dump the query result into a CSV file:
+echo “COPY (SELECT * from foo) TO STDOUT with CSV HEADER” | psql -o ‘/tmp/test.csv’ database_name
+
+Source: 
+http://stackoverflow.com/questions/1517635/save-postgre-sql-output-to-csv-file
+ <a href="/2012/05/csv-export-in-postgresql.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>02 Mar 2012</small>
+        <small><a style="color:grey" href="/2012/03/abstracttexteditor-and-cutcopypaste.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/03/abstracttexteditor-and-cutcopypaste.html">AbstractTextEditor and Cut/Copy/Paste + first keystroke problem</a>
+        <p class="nice-text">If the cut,copy/paste commands don’t work in the editor and it doesn’t recognize the first keystroke then you should override the AbstractDocumentProvider’s isReadOnly() method in your document provider. The default implementation always returns true. Change it to false and everything works as expected.
+
+Source:
+http://www.eclipse.org/forums/index.php/t/144925/
+ <a href="/2012/03/abstracttexteditor-and-cutcopypaste.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>28 Feb 2012</small>
+        <small><a style="color:grey" href="/2012/02/replace-symbolic-links-with-tar.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/02/replace-symbolic-links-with-tar.html">Replace symbolic links with tar</a>
+        <p class="nice-text">This is a really slow solution, but works:
+tar -hcf - sourcedir | tar -xf - -C parent_of_newdir
+
+
+Source:
+
+http://superuser.com/questions/303559/replace-symbolic-links-with-files
+ <a href="/2012/02/replace-symbolic-links-with-tar.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>23 Feb 2012</small>
+        <small><a style="color:grey" href="/2012/02/create-new-git-repository-using-gitosis.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/02/create-new-git-repository-using-gitosis.html">Create new Git repository using gitosis in 5 steps</a>
+        <p class="nice-text">
+  Add the repo name to gitosis.conf
+  git init project
+  git remote add origin git@SERVER:project.git
+  Add files, etc, do commit.
+  git push origin master
+
+
+More info: https://wiki.archlinux.org/index.php/Gitosis
+ <a href="/2012/02/create-new-git-repository-using-gitosis.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>17 Feb 2012</small>
+        <small><a style="color:grey" href="/2012/02/git-on-dropbox-in-5-commands.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/02/git-on-dropbox-in-5-commands.html">Git on Dropbox in 5 commands</a>
+        <p class="nice-text">Create git repository:
+cd ~/Dropbox
+mkdir -p git/repo.git
+cd git/repo.git
+git --bare init
+
+
+Clone:
+git clone file:///home/user/Dropbox/git/repo.git
+
+
+Source:
+http://tumblr.intranation.com/post/766290743/using-dropbox-git-repository
+ <a href="/2012/02/git-on-dropbox-in-5-commands.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>08 Feb 2012</small>
+        <small><a style="color:grey" href="/2012/02/recursively-remove-svn-directories.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/02/recursively-remove-svn-directories.html">Recursively remove .svn directories</a>
+        <p class="nice-text">Recursively remove .svn directories:
+rm -rf `find . -type d -name .svn` 
+
+
+More info:
+http://www.ossramblings.com/remove_svn_recursively
+ <a href="/2012/02/recursively-remove-svn-directories.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>06 Feb 2012</small>
+        <small><a style="color:grey" href="/2012/02/simple-find-and-replace-text-with-sed.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2012/02/simple-find-and-replace-text-with-sed.html">Simple find and replace text with sed</a>
+        <p class="nice-text">Simple find and replace text with sed:
+sed -i 's/search/replacement/g' text.txt 
+
+
+More details:
+
+http://www.brunolinux.com/02-The_Terminal/Find_and%20Replace_with_Sed.html
+ <a href="/2012/02/simple-find-and-replace-text-with-sed.html">Read more!</a></p>
+    </li>
+    
+    <li class="post">
+        <small>05 Oct 2010</small>
+        <small><a style="color:grey" href="/2010/10/how-to-use-jquery-14-in-drupal-6-module.html#disqus_thread"></a></small>
+        <br>
+        <a class="nice-title" href="/2010/10/how-to-use-jquery-14-in-drupal-6-module.html">How to use jQuery 1.4 in a Drupal 6 module</a>
+        <p class="nice-text">Welcome to my first blogpost! I’m working on a project, where we need to use jQuery 1.4 and jQuery UI 1.8 in a Drupal 6 module. Unfortunately, the jQuery Update module only allows us to use 1.3.2 and we can only develop with the 1.6 version of jQuery UI by... <a href="/2010/10/how-to-use-jquery-14-in-drupal-6-module.html">Read more!</a></p>
+    </li>
+    
+</ul>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'dtengeri';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script></span></div>
+</div>
+
+
+      </div>
+
+      <div class="tile is-4 is-child">
+        <div class="tile is-parent is-vertical sidebar">
+
+          <div class="tile is-child widget">
+
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title nice-title">
+                  Recent Posts
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  <ul>
+                  
+                  <li><a href="/2017/10/phoenix-angular.html">
+                    Using Angular 4 with Phoenix Framework 1.3
+                  </a></li>
+                  
+                  <li><a href="/2015/11/overcommit-integration-of-dogma.html">
+                    Overcommit integration of Dogma
+                  </a></li>
+                  
+                  <li><a href="/2015/11/keeping-your-elixir-code-style.html">
+                    Keeping your Elixir code style consistent
+                  </a></li>
+                  
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tile is-child widget">
+
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title nice-title">
+                  Sponsored
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content nice-text">
+                  
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Some rights reserved.
+      </p>
+      <p>
+        Made with <i class="fa fa-heart"></i> and <a href="https://github.com/jgthms/bulma">Bulma</a>, <a href="https://jekyllrb.com/">Jekyll</a>. Hosted on <a href="https://github.com/">Github</a>
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/dtengeri">
+          <i class="fa fa-github" title="Github"></i>
+        </a>
+        <a class="icon" href="https://in.linkedin.com/in/dtengeri">
+          <i class="fa fa-linkedin" title="Linkedin"></i>
+        </a>
+        <a class="icon" href="mailto:dtengeri@gmail.com">
+          <i class="fa fa-envelope" title="Email"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- js -->
+
+
+
+
+
+
+<script src="/assets/js/custom.js"></script>
+<script src="/assets/js/typewriter.js"></script>
+</body>
+</html>
