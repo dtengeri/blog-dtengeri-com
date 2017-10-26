@@ -101,3 +101,8 @@ html, body {
 a {
     color: #57A3E8;
 }
+
+ul.posts {
+    list-style-type: none;
+    margin: 0;
+}
